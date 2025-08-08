@@ -1,0 +1,150 @@
+body{
+    background-color: #ffffff;
+}
+.c1{
+    border: 2px solid;
+    background-color: white;
+    width: 650px;
+    height: 380px;
+    position: relative;
+    top: 100px;
+    left: 27%;
+    border: none;
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+    box-shadow: 0 0 20px rgb(129, 125, 125);
+}
+.c1 h1{
+  font-family: "Special Gothic Expanded One", sans-serif;
+  font-weight: 100px;
+  font-style: normal;
+  position: relative;
+  top: 50px;
+  left: 120px;
+}
+.c1 i{
+    position: relative;
+    top: 28px;
+    left: 55px;
+    margin-right: 10px;
+    font-size: 1.3rem;
+    border: 1px solid black;
+    border: none;
+    padding: 10px;
+    box-shadow: 1px 4px 20px rgb(121, 117, 117);
+    border-radius: 8px;
+    cursor: pointer;
+}
+.c1 i:hover{
+    background-color: rgb(112, 26, 192);
+    box-shadow: 1px 4px 20px rgb(112, 26, 192) ;
+    color: white;
+}
+.c1 p{
+    position: relative;
+    top: 30px;
+    left: 79px;
+    font-family: "Special Gothic Expanded One", sans-serif;
+    font-size: 0.9rem;
+    color: rgb(60, 61, 61);
+}
+.c1 a:hover{
+    text-decoration: underline;
+}
+.c2 input{
+    display: flex;
+    position: relative;
+    top: 30px;
+    left: 40px;
+    margin-bottom: 10px;
+    padding: 8px;
+    padding-right: 100px;
+    border: none;
+    background-color: rgb(198, 201, 204);
+    border-radius: 7px;
+    border: 2px solid rgb(112, 26, 192);
+    color: #ffffff;
+}
+a{
+    position: relative;
+    top: 34px;
+    left: 110px;
+    text-decoration: none;
+    color:rgb(60, 61, 61) ;
+    font-size: 1rem;
+}
+button{
+    position: relative;
+    top: 20px;
+    left: 20px;
+    padding: 7px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border: none;
+    border-radius: 10px;
+    background-color: rgb(112, 26, 192);
+    color: white;
+    font-family: "Special Gothic Expanded One", sans-serif;
+    cursor: grabbing;
+}
+button:hover{
+    box-shadow: 0 0 20px rgb(136, 18, 255);
+}
+.c3{
+    border: 2px solid;
+    width: 300px;
+    height: 380px;
+    position: relative;
+    top: -321px;
+    left: 54.3%;
+    border-top-left-radius: 80px;
+    border-bottom-left-radius: 80px;
+    background-color: rgb(128, 15, 233);
+    border: none;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+    box-shadow: 0 0 20px rgb(129, 125, 125);
+}
+.c3 h1{
+    text-align: center;
+    position: relative;
+    left: -5px;
+    top: 130px;
+    color: white;
+}
+.c3 p{
+    position: relative;
+    top: 100px;
+    left: 4px;
+    color: white;
+    text-align: center;
+}
+.c3 button{
+    top: 90px;
+    left: -30px;
+    padding: 7px;
+    padding-left: 40px;
+    padding-right: 40px;
+    border: 1px solid white;
+    border-width: 2px;
+    border-radius: 10px;
+    background-color: rgb(132, 0, 255);
+    color: white;
+    font-family: "Special Gothic Expanded One", sans-serif;
+}
+.c3 button:hover{
+    animation-name: ra;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    border-color:green;
+}
+@keyframes ra {
+    0%{border-color: aqua; box-shadow: 0 0 20px aqua;background-color: aqua;}
+    10%{border-color: black;box-shadow: 0 0 20px rgb(0, 0, 0);background-color: black;}
+    20%{border-color: cadetblue;box-shadow: 0 0 20px cadetblue;background-color: cadetblue;}
+    30%{border-color: gold;box-shadow: 0 0 20px gold;background-color: gold;}
+    40%{border-color: brown;box-shadow: 0 0 20px brown;background-color: brown;}
+    50%{border-color: rgb(255, 2, 2);box-shadow: 0 0 20px rgb(255, 2, 2);background-color: red;}
+}
